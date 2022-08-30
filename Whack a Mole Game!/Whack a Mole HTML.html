@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>WHACK A MOLE!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <h1>WHACK A MOLE!</h1>
+        <img src="mole-head.png" id="head">
+        <img src="mole-hill.png" id="mole-hill">
+        <button type="button" onclick="start()" id="start">START</button>
+        <img src="mole-hill.png" id="dirt1" class="dirt">
+        <img src="mole-hill.png" id="dirt2" class="dirt">
+        <img src="mole-hill.png" id="dirt3" class="dirt">
+        <img src="mole-hill.png" id="dirt4" class="dirt">
+        <img src="mole-hill.png" id="dirt5" class="dirt">
+        <img src="mole-hill.png" id="dirt6" class="dirt">
+        
+        <img src="mole-head.png" id="head1" class="head" onclick="clicked()">
+        <img src="mole-head.png" id="head2" class="head" onclick="clicked()">
+        <img src="mole-head.png" id="head3" class="head" onclick="clicked()">
+        <img src="mole-head.png" id="head4" class="head" onclick="clicked()">
+        <img src="mole-head.png" id="head5" class="head" onclick="clicked()">
+        <img src="mole-head.png" id="head6" class="head" onclick="clicked()">
+
+        <span class="points">POINTS:</span><span id="currentPoint"
+        class="points">0</span>
+
+        <script src="script.js"></script>
+
+    </body>
+</html>
